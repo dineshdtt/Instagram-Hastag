@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="15sp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="Top 30"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/copttxt"
+            android:layout_marginTop="1dp"
+            android:id="@+id/imageforcopy"
+            android:contentDescription="CopyButtonView" />
+
+        <TextView
+            android:id="@+id/tagsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:padding="10dp"
+            android:text="#love #instagood #me #cute #tbt #photooftheday #instamood #iphonesia #tweegram #picoftheday #igers #girl #beautiful #instadaily #summer #instagramhub #iphoneonly #follow #igdaily #bestoftheday #happy #picstitch #tagblender #jj #sky #nofilter #fashion #followme #fun #sun"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
